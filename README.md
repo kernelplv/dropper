@@ -10,11 +10,11 @@ for In4Tech with love..
 # droppex /help
 droppex put/get /src_path /dst_path
 ```
-/help = h          Display help information on command line arguments.
+/help = h      Display help information on command line arguments.
 /src_path = s  Send/Receive file path.
 /dst_path = d  Receive/Send file path.
-put           Send file(native path format) to dst_path(unix path format).
-get           Download file(unix path format) to dst_path(native path format).
+put            Send file(native path format) to dst_path(unix path format).
+get            Download file(unix path format) to dst_path(native path format).
 ```
 Example(Windows-PowerShell): 
 ```
