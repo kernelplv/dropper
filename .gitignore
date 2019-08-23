@@ -22,3 +22,4 @@ output.txt
 .vscode/tasks.json
 testfolder/1.png
 testfolder/fest.png
+.gitignore
