@@ -24,7 +24,7 @@ Example(Windows-PowerShell):
 
 ## Windows install
 ### You will need:
-  - MSYS2 x64
+  - Download & install MSYS2 x64 https://github.com/msys2/msys2/wiki/MSYS2-installation
   - Open "Environment Variables > System Variables > Path"
   - At the end, add msys64\mingw64\bin
   ```
