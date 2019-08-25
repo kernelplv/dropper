@@ -66,3 +66,8 @@ build/CMakeFiles/dropper.dir/src/DropperApp.cpp.obj
 wikipics/
 dropper.exe
 build/install_manifest.txt
+build/dropper
+build/CMakeFiles/3.15.2/CompilerIdC/a.out
+build/CMakeFiles/3.15.2/CompilerIdCXX/a.out
+build/CMakeFiles/dropper.dir/src/DropperApp.cpp.o
+build/CMakeFiles/dropper.dir/src/dropper.cpp.o

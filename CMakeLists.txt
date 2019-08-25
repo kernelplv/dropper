@@ -118,7 +118,29 @@ IF(WIN32)
   ENDIF(MINGW)
 
 ELSEIF(UNIX)
-  message( FATAL_ERROR "Easy man, easy.." ) 
+  #message( FATAL_ERROR "Easy man, easy.." ) 
+  set(CMAKE_BUILD_TYPE Debug)
+  set(CMAKE_CXX_STANDARD 14)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -Wall")
+
+  file(GLOB 
+            CPP_SRC "src/*.cpp")
+            
+  include_directories("${PROJECT_SOURCE_DIR}/include")
+  link_directories("${PROJECT_SOURCE_DIR}/include")
+
+  add_executable(${PROJECT_NAME} ${CPP_SRC})
+
+  find_package(Poco REQUIRED Foundation Net NetSSL JSON Util Crypto)
+  target_link_libraries(${PROJECT_NAME} 
+    Poco::Foundation
+    Poco::Net
+    Poco::NetSSL
+    Poco::JSON
+    Poco::Util
+    Poco::Crypto
+  )
+  install(TARGETS ${PROJECT_NAME} DESTINATION /bin)
 ELSE()
   message( FATAL_ERROR "Your OS are not supported yet." )  
 ENDIF(WIN32)
