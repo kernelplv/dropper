@@ -46,3 +46,4 @@ Example(Windows-PowerShell):
   mingw32-make install
   ```
   enjoy!
+  ![alt text](https://github.com/kernelplv/dropper/blob/master/wikipics/2019-08-25_18-53-50.png)
