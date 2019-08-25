@@ -63,5 +63,6 @@ build/CMakeFiles/dropper.dir/objects1.rsp
 build/CMakeFiles/dropper.dir/progress.make
 build/CMakeFiles/dropper.dir/src/dropper.cpp.obj
 build/CMakeFiles/dropper.dir/src/DropperApp.cpp.obj
+wikipics/
 dropper.exe
 build/install_manifest.txt
