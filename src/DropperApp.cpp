@@ -5,8 +5,8 @@
 #include "Poco/Util/OptionSet.h"
 #include "Poco/Util/HelpFormatter.h"
 
-#include "Dropper.h"
 #include <iostream>
+#include "Dropper.h"
 
 using Poco::Util::Application;
 using Poco::Util::Option;
@@ -98,6 +98,7 @@ public:
     }
     catch(Poco::Exception& e)
     {
+      remove("settings.json");
       std::cerr << e.displayText() << std::endl;
       return Application::EXIT_SOFTWARE;
     }

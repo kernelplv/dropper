@@ -254,6 +254,4 @@ void Dropper::load_config()
     cfg.createFile(); // atomic
     std::cout << "New settings file created." << std::endl;
   }
-  
-
 }
