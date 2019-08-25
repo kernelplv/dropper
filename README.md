@@ -45,7 +45,21 @@ Example(Windows-PowerShell):
         or
   mingw32-make install
   ```
-  enjoy!
+  
   ![alt text](https://github.com/kernelplv/dropper/blob/master/wikipics/2019-08-25_18-53-50.png)
   ## Linux install
-  ### soon
+  ### Manjaro(Arch)
+    - Open Terminal
+    ```
+    # su
+    # pacman -Syo
+    # pacman -S gcc
+    # pacman -S cmake
+    # pacman -S poco
+    # cd /home/%user%/%folder_contain_Dropper%
+    # mkdir build
+    # make install 
+    ```
+![alt text](https://github.com/kernelplv/dropper/blob/master/wikipics/2019-08-25_23-27-40.png)
+
+Enjoy!
