@@ -7,8 +7,8 @@ Dropper - dropbox download/upload command-line tool
 for In4Tech with love..
 
 
-# droppex /help
-droppex put/get /src_path /dst_path
+# dropper /help
+dropper put/get /src_path /dst_path
 ```
 /help = h      Display help information on command line arguments.
 /src_path = s  Send/Receive file path.
