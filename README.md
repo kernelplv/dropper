@@ -47,3 +47,5 @@ Example(Windows-PowerShell):
   ```
   enjoy!
   ![alt text](https://github.com/kernelplv/dropper/blob/master/wikipics/2019-08-25_18-53-50.png)
+  ## Linux install
+  ### soon
