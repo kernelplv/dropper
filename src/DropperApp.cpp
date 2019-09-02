@@ -53,7 +53,7 @@ protected:
   {
     HelpFormatter helpFormatter(options());
     helpFormatter.setCommand(commandName());
-    helpFormatter.setUsage("OPTIONS");
+    helpFormatter.setUsage("get/set src_dir dst_dir");
     helpFormatter.setHeader("A simple Dropbox command line client for files transfer");
     helpFormatter.format(std::cout);
   }
